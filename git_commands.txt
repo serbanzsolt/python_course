@@ -1,0 +1,35 @@
+git --version | version of git
+
+git config --global user.name "username" | set username
+git config --global user.email "user@email.com" | set email
+
+pwd | print working directory
+
+1. INIT
+git init | create repository
+touch "file.html" | create file
+git status | gives status of the folder (what changed)
+
+PULL / CLONE
+git clone http://github.com.... | clone an existing project
+
+RESTORE
+git checkout -- . | restore all file
+
+2. ADDING TO STAGING AREA
+git add filename.html | add file to the staging area
+git add -A | Add all to staging area
+
+3. COMMIT
+git commit -m 'my first commit' | making commit with meassage
+EXIT FROM COMMIT EDITOR
+press esc to exit insert mode, then type :x! (now the cursor is at the bottom) and hit enter to save and exit.
+
+4. PUSH
+git push origin master | upload to website (origin = http://blabla...)
+git push origin main | upload main branch
+
+SET REMOTE SERVER
+git remote -v | shows the server address where you should push it
+git remote set-url origin https://blabla | set the origin of the project
+
