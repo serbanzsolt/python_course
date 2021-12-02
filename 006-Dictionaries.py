@@ -35,24 +35,25 @@ print(d['k3'])
 print(d['k3']['insidekey'])
 print( d['k2'][2] )
 
-c = {'key1' : [1,2,3,'a','b','c']}
+c = {'key1' : ['a','b','c']}
 
 my_new_list = c['key1']
 print(my_new_list)
 
-letter = my_new_list[3]
+letter = my_new_list[2]
 print(letter.upper())
 
-d['key1'][2].upper()
+c['key1'][2].upper()
 
+dict2 = {'k1' : 100, 'k2' : 200, 'k3' : 300}
+print(dict2)
+dict2['k1'] = 'NEW VALUE'
+print(dict2)
 
-
-
-
-
-
-
-
+dict2 = {'k1' : 100, 'k2' : 200, 'k3' : 300}
+print(dict2.keys())
+print(dict2.values())
+print(dict2.items())
 
 
 
