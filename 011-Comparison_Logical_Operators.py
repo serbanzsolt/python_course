@@ -38,4 +38,3 @@ print ( 'a' == 'a' or 11 == 110 )
 
 print(100>1000)
 print(not 100>1000)
-
