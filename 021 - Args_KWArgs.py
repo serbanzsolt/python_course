@@ -42,3 +42,30 @@ def myfunc4 (*args, **kwargs):
     print('I would like {} {}'.format(args[0],kwargs['food']))
     
 myfunc4(10,20,30,fruit='orange',food='eggs',animal='dog')
+
+def myfunc5 (*args):
+    print(args)
+    mylist = []
+    for item in args:
+        if item % 2 == 0:
+            mylist.append(item)
+        else:
+            pass
+    return mylist
+
+print(myfunc5(3,4,5,6,7))
+
+def myfunc6 (word='default'):
+    current_letter_number = 1
+    word_return = ''
+    for letter in word:
+        # even letter
+        if current_letter_number % 2 == 0:
+            word_return += letter.upper()
+            current_letter_number += 1
+        elif current_letter_number % 2 != 0:
+            word_return += letter.lower()
+            current_letter_number += 1
+    return word_return
+
+print(myfunc6('skdadjjfhwevjwpoejrwmcvbneprju'))
