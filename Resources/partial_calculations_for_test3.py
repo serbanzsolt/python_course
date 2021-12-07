@@ -158,14 +158,37 @@ print(has_33([3, 1, 3]))
 # 8
 # =============================================================================
 
+def paper_doll(text):
+    letter_list = list(text)
+    return_text = ''
+    for letters in letter_list:
+        return_text += (letters*3)
+    return return_text
 
+print(paper_doll('Hello'))
+print(paper_doll('Mississippi'))
 
+# =============================================================================
+# 9
+# =============================================================================
 
+def blackjack(a,b,c):
+    if 0 < a <12 and 0 < b <12 and 0 < c <12:
+        if ((a+b+c)) > 21 and (a == 11 or b==11 or c==11):
+            return ((a+b+c)-10)
+        elif (a+b+c) <= 21:
+            return (a+b+c)
+        else:
+            return 'BUST'
+    else:
+        # A,B,C not between 1-11
+        return 'A or B or C is not between 1-11'
+        
+print(blackjack(5,6,7))
+print(blackjack(9,9,9))
+print(blackjack(9,9,11))
+print(blackjack(90,9,11))
 
-
-
-
-
-
-
-
+# =============================================================================
+# 10
+# =============================================================================
