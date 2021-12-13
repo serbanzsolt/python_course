@@ -1,0 +1,12 @@
+
+extensions:
+
+1. python
+2. AREPL - real time python printout/scratchpad
+3. Kite AutoComplete AI Code: python
+4. Python Docstring Generator - Generate auto comment-strings
+
+
+themes:
+
+1. Monokai High Contrast
