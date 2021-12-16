@@ -1,7 +1,7 @@
 
 extensions:
 
-1. python
+1. Python - default python extension (no snippets include)
 2. AREPL - real time python printout/scratchpad
 3. Kite AutoComplete AI Code: python
 4. Python Docstring Generator - Generate auto comment-strings
