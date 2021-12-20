@@ -1,12 +1,19 @@
 
 extensions:
-
 1. Python - default python extension (no snippets include)
 2. AREPL - real time python printout/scratchpad
 3. Kite AutoComplete AI Code: python
-4. Python Docstring Generator - Generate auto comment-strings
-
+4. Bracket Pair Colorizer 2
+5. Better Comments
+6. Code Runner - run code on output without using the Terminal
+7. Jupyter - able to run Jupyter notebook file_extension
+8. Path Intellisense - autocompletes filenames
+9. Python Indent - Correct python indentation
+10. Tabnine AI Autocomplete for Javascript, Python, Typescript, PHP, Go, Java, Ruby & more - AI assistance
+11. Visual Studio IntelliCode - AI assisted development
+12. AREPL - real time python printout/scratchpad
+13. Python Docstring Generator - Generate auto comment-strings
 
 themes:
-
-1. Monokai High Contrast
+1. Sublime Monokai - default
+2. Monokai High Contrast
